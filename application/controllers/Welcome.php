@@ -53,7 +53,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('page1');
 	}
 
-	public function new_func() {
-		echo 'blabla';
+	public function abc() {
+		echo 'abc';
 	}
 }
