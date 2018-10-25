@@ -52,4 +52,8 @@ class Welcome extends CI_Controller {
 	public function test() {
 		$this->load->view('page1');
 	}
+
+	public function new_func() {
+		echo 'blabla';
+	}
 }
